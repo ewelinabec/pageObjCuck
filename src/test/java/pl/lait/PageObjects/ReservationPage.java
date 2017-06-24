@@ -65,7 +65,7 @@ public class ReservationPage {
 		toDay.selectByVisibleText(visibleText);
 	}
 	
-	public WebElement radio_First(WebDriver driver){}
+	//public WebElement radio_First(WebDriver driver){}
 		
-	}
+	//}
 }

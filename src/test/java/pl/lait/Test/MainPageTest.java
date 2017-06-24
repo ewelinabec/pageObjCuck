@@ -12,13 +12,13 @@ public class MainPageTest extends Init {
 	
 	public static WebDriver driver;
 	
-	@Before
+	//@Before
 	public void run(){
 		driver = getDriver();
 	}
-	@Ignore
 	
-	@Test
+	//@Ignore
+	//@Test
 	public void test1_mainMenu(){
 		MainPage main = new MainPage();
 		main.link_contact(driver).click();
